@@ -1,0 +1,7 @@
+There are 3 ways to access DOM elements
+
+        1. using document.getElementsByTagName(tagName) --> it will return the array of the elements which are having same tag  name as tagName
+
+        2. using document.getElementsByClassName(className) --> it will return the array of the elements which are having same CSS class  name as className
+
+        3.2. using document.getElementById(id) --> it will return the element which is having same CSS id  name as id.

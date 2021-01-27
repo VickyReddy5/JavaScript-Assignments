@@ -1,0 +1,26 @@
+
+
+console.log(1 + "2" + "2");
+
+    it will print 122 because when a number and string is added it will be concatnated just like addition of strings
+
+
+console.log(1 + +"2" + "2");
+
+    it will print 32 because + operator will act as Number() and convert "2" to 2 then 1+2 will give 3  and 3+"2" return "32" 
+
+console.log(1 + -"1" + "2");
+
+    it will print 02 because - operator will act as Number() and convert "1" to -1 then 1-1 will give 0  and 0+"2" return "02" 
+
+console.log(+"1" + "1" + "2");
+
+    it will print 112 because + operator will act as Number() and convert "1" to 1 then 1+"1" will give "11"  and "11"+"2" return "112" 
+
+console.log( "A" - "B" + "2");
+
+    it will print Nan because we cannot perform - on strings. 
+
+console.log( "A" - "B" + 2);
+
+    it will print Nan because we cannot perform - on strings and Nan+ number will return Nan.
